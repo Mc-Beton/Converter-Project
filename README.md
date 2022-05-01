@@ -9,5 +9,5 @@
 ## Coaborators
 
 [Grande17](https://github.com/Grande17)
-[Mc=Beton](https://github.com/Mc-Beton)
+[Mc-Beton](https://github.com/Mc-Beton)
 [Wis1](https://github.com/Wis1)
