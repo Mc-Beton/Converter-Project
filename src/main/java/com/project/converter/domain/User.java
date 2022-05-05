@@ -22,4 +22,7 @@ public class User {
 
     @Column(name="USER_PASSWORD")
     private String user_password;
+
+    @OneToOne(mappedBy = "user")
+    private UserData userData;
 }
