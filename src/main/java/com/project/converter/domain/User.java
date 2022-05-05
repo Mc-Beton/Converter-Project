@@ -25,4 +25,7 @@ public class User {
 
     @OneToOne(mappedBy = "user")
     private UserData userData;
+
+    @OneToOne(mappedBy = "user")
+    private UserAccount userAccount;
 }
