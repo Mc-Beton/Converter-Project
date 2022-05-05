@@ -18,10 +18,10 @@ public class User {
     private Long user_id;
 
     @Column(name="USER_LOGIN")
-    private String user_login;
+    private String username;
 
     @Column(name="USER_PASSWORD")
-    private String user_password;
+    private String password;
 
     @OneToOne(mappedBy = "user")
     private UserData userData;
