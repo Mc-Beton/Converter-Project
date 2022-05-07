@@ -20,16 +20,18 @@ public class UserAccount {
     @MapsId
     private User user;
 
-    //Add when account Entities are added
-    /*
+
+
     @OneToOne
     @JoinColumn(name = "PLNACCOUNT_ID")
     private PLNAccount plnAccount;
 
+
+
     @OneToOne
     @JoinColumn(name = "EURACCOUNT_ID")
     private EURAccount eurAccount;
-    */
+
 
     //Add when transaction Entity added
     /*
